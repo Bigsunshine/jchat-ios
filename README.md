@@ -33,7 +33,7 @@ pod install
 	
 ##### 配置运行的基本属性
 
-- appKey：JPush appKey 是 JMessage SDK 运行的基本参数。请到 [JPush 官方网站](https://jpush.cn)登录控制台创建应用获取。
+- appKey：JPush appKey 是 JMessage SDK 运行的基本参数。请到 [JPush 官方网站](https://jiguang.cn)登录控制台创建应用获取。
 - bundle_id：这是一个 iOS 应用的基本属性。你需要登录到 Apple 开发者网站去创建应用。
 
 ### JMessage 文档
@@ -174,7 +174,7 @@ didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
   }
 }
 ```
-注册完成会回调 handler ，如下代码。如果出现错误会返回的error 部位nil，注意resultOvject 不同接口会返回不同类型的值或者nil，详细信息可以关注 [JMessage 官方文档](http://docs.jpush.io/client/im_sdk_ios/#summary)
+注册完成会回调 handler ，如下代码。如果出现错误会返回的error 部位nil，注意resultOvject 不同接口会返回不同类型的值或者nil，详细信息可以关注 [JMessage 官方文档](https://docs.jiguang.cn/jmessage/guideline/jmessage_guide/)
 ```
 typedef void (^JMSGCompletionHandler)(id resultObject, NSError *error);
 ```
